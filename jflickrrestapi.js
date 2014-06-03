@@ -4,7 +4,7 @@
  *
  */
 (function($) {
-    $.fn.jflickrfeed = function(settings, callback) {
+    $.fn.jflickrrestapi = function(settings, callback) {
         var defaults,
             settings,
             first,
