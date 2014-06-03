@@ -12,7 +12,7 @@ A jQuery plugin to pull photos from the Flickr REST API
 <script src="jflickrrestapi.js"></script>
 <script>
 $(document).ready( function(){
-    $('.photo-viewer').jflickrfeed(
+    $('.photo-viewer').jflickrrestapi(
         {
              imageSize: 'medium'
             ,qstrings: {
